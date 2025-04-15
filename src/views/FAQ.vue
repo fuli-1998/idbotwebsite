@@ -41,7 +41,7 @@ import pic4 from '@/assets/image/faq_img_4.png'
             `
         },
         {
-            icon:pic3,
+            icon:pic4,
             title:'Why should I use IDBot?',
             value:`<div >IDBot is a bot that runs on traditional social media. Its goal is to put users' data from traditional social media on-chain on the Bitcoin network. IDBot can provide you with the following benefits:</div>
             <ul class='mt-5 list-disc'>

@@ -45,7 +45,7 @@
                 <div class="mt-5 leading-relaxed text-left text-sm">
                     ID-Bot is a Web3 social tool specially designed for mainstream social platforms such as Telegram and X.
                 </div>
-                <div class="mt-6 text-center w-6/12 text-white py-3.5  rounded-[75PX] bg-black text-base">
+                <div class="mt-6 text-center w-8/12 text-white py-3.5  rounded-[75PX] bg-black text-base">
                     Coming Soon
                 </div>
             </div>

@@ -1,11 +1,11 @@
 <template>
     <div id="home" class="home-wrap flex flex-col items-center pb-[116PX]">
     <div class="header-wrap mt-1 sm:mt-5 w-11/12 md:w-9/12 lg:w-6/12 flex items-center justify-between">
-    <div class="flex flex-1 my-4 sm:mx-8">
+    <div class="flex w-2/5 my-4 sm:mx-8">
         <img :src="icon" class="mr-1" alt="">
        <img :src="title" alt="">
     </div>
-    <div class="nav hidden sm:flex flex-2 items-center justify-around ">
+    <div class="nav hidden sm:flex w-3/5 items-center justify-around ">
         <a href="#home"  >Home</a>
         <a href="#data"  >Data</a>
         <a href="#social"  >Social Media</a>
