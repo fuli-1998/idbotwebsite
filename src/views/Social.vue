@@ -1,8 +1,10 @@
 <template>
   <div id="social" >
     <div class="mt-[200PX] flex flex-col items-center justify-center">
-        <div class="text-5xl font-bold">Support Social Media</div>
-    <div class="mt-[100PX] section_1 w-10/12 rounded-[32PX]  px-[50PX] py-[36PX]  flex flex-col items-center justify-between lg:flex-row lg:items-baseline bg-[#F5FBFD]">
+        <div class="text-5xl font-bold "><span class="px-2">
+            Support Social Media
+        </span></div>
+    <div class="mt-[100PX] section_1 w-11/12 sm:w-10/12 rounded-[32PX]  px-[32PX] py-[23PX] sm:px-[64PX] sm:py-[55PX]  flex flex-col items-center justify-between lg:flex-row lg:items-baseline bg-[#F5FBFD]">
         <div class="mr-0 lg:mr-5  flex flex-col items-center lg:items-start " >
             <div class="flex items-center justify-center">
                 <div class="w-[46PX] h-[46PX] mr-3"><img :src="pic1" alt=""></div>
@@ -15,7 +17,7 @@
 
         <div class="flex  flex-col mt-[30PX] lg:mt-0 ">
             <div class="text-2xl font-bold">How to Use</div>
-            <div class="bg-white   mt-[15PX] px-[25PX] py-[19PX] rounded-[32PX] flex flex-col items-start">
+            <div class="bg-white   mt-[15PX] px-[15PX] py-[10PX] sm:px-[25PX] sm:py-[19PX] rounded-[32PX] flex flex-col items-start">
                <div class="text-left text-lg mt-[20PX] first:mt-0" v-for="item in useContent">
                 <span class="text-left">{{ item }}</span>
                </div>
@@ -24,7 +26,7 @@
         
     </div>
 
-    <div class="section_2 w-10/12 mt-[20PX] flex flex-col lg:flex-row  rounded-[32PX] bg-[#F5FBFD] px-[64PX] py-[55PX]">
+    <div class="section_2 w-11/12 sm:w-10/12 mt-[20PX] flex flex-col lg:flex-row  rounded-[32PX] bg-[#F5FBFD] px-[32PX] py-[23PX] sm:px-[64PX] sm:py-[55PX]">
             <div class="flex flex-1 flex-col ">
                 <div class="flex flex-col ">
                     <div class="flex  flex-start  ">
@@ -45,15 +47,15 @@
                 <div class="mt-5 leading-relaxed text-left text-sm">
                     ID-Bot is a Web3 social tool specially designed for mainstream social platforms such as Telegram and X.
                 </div>
-                <div class="mt-6 text-center w-8/12 text-white py-3.5  rounded-[75PX] bg-black text-base">
-                    Coming Soon
+                <div class="mt-6 px-3 text-center w-11/12 sm:w-4/12  lg:w-8/12   text-white py-3.5  rounded-[75PX] bg-black text-base">
+                   <span class="">Coming Soon</span>
                 </div>
             </div>
             <div class="flex mt-5 relative lg:mt-0 flex-2 ">
                 <div>
                     <img class="" :src="pic5" alt="">
                 </div>
-                <div class="absolute w-[88PX] h-[88PX] md:w-[177PX] md:h-[177PX] bottom-[25PX] md:bottom-[50PX] left-[-22PX] md:left-[-44PX]">
+                <div class="absolute w-[60PX] sm:w-[60PX] sm:h-[88PX] md:w-[177PX] md:h-[177PX] bottom-[25PX] md:bottom-[50PX] left-[-22PX] md:left-[-44PX]">
                     <img class="w-full h-full" :src="pic6" alt="">
                 </div>
             </div>

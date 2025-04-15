@@ -6,7 +6,7 @@
         </div>
         <div>
             <div class="section_1 mt-[146PX] flex items-center justify-center">
-              <div class="flex w-10/12 flex-col items-center md:flex-row  p-12 rounded-[32PX] bg-[#F5FBFD]  justify-between">
+              <div class="flex w-11/12 sm:w-10/12 flex-col items-center md:flex-row  p-8 sm:p-12 rounded-[32PX] bg-[#F5FBFD]  justify-between">
                 <div class="flex flex-col  items-start">
                     <div><img :src="icon" alt=""></div>
                     <div class="font-bold text-3xl">Date</div>
@@ -19,9 +19,9 @@
               </div>
             </div>
             <div class="w-full flex items-center justify-center">
-                <div class="section_2 w-10/12 mt-[22PX] grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8 lg:grid-cols-3   " >
+                <div class="section_2 w-11/12 sm:w-10/12 mt-[22PX] grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8 lg:grid-cols-3   " >
                 
-                <div class=" px-[30PX] py-[40PX] rounded-[32PX] bg-[#F5FBFD] "  v-for="item in setcion2List">
+                <div class="px-[30PX] py-[40PX] rounded-[32PX] bg-[#F5FBFD] "  v-for="item in setcion2List">
             <div class="flex  text-left justify-center" v-if="item.title !== 'chanis'">
                 <div class="flex  flex-1 flex-col ">
                   

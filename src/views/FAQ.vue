@@ -1,12 +1,12 @@
 <template>
   <div id="faq" class="flex mt-[200PX] mb-[100PX] sm:mb-[350PX] items-center justify-center">
-     <div class="w-10/12">
+     <div class="w-11/12 sm:w-10/12">
         <div class="text-5xl font-bold">FAQ</div>
         <div class="grid mt-[100PX] grid-cols-1 gap-x-[19PX] gap-y-[40PX] md:grid-cols-2">
             <div class="bg-[#F5FBFD] rounded-[20PX] p-8" v-for="item in content">
-                <div class="flex flex-start">
-                    <div class="mr-[19PX]"><img :src="item.icon" alt=""></div>
-                    <div class="font-bold text-left text-2xl"><span>{{ item.title }}</span></div>
+                <div class="flex flex-start flex-col sm:flex-row">
+                    <div class="mr-[19PX] flex w-[90PX] h-[90PX] sm:w-[130PX] sm:h-[130PX]"><img class="" :src="item.icon" alt=""></div>
+                    <div class="font-bold mt-5 sm:mt-0 flex-1 text-left text-2xl"><span>{{ item.title }}</span></div>
                 </div>
                 <div class="mt-[19PX]">
                     <p class="text-[15PX]  text-left" v-html="item.value"></p>
