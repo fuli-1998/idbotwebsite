@@ -1,5 +1,8 @@
 
-@import "tailwindcss";
+/* GOOD */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 :root {
