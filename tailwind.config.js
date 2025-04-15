@@ -7,8 +7,8 @@ const {
 } = require('tailwindcss/lib/util/flattenColorPalette')
 
 /** @type {import('tailwindcss').Config} */
-export default {
-  important: true,
+module.exports= {
+  
     darkMode: 'class',
     content: [
       './index.html',
@@ -16,7 +16,6 @@ export default {
       './pages/**/*.{ts,tsx,vue}',
       './components/**/*.{ts,tsx,vue}',
       './app/**/*.{ts,tsx,vue}',
-      './node_modules/@headlessui/vue/dist/**/*.js'
     ],
     theme: {
     
