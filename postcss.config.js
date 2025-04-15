@@ -1,0 +1,18 @@
+
+
+export default {
+    plugins:{
+        'postcss-import': {},
+         '@tailwindcss/postcss': {},
+
+        autoprefixer: {},
+    
+        'postcss-pxtorem': {
+      rootValue: 100, // 设计稿宽度 / 10
+      propList: ['*'],
+      replace: true,
+      mediaQuery: false,
+      unitPrecision: 5,
+    },
+    }
+}
