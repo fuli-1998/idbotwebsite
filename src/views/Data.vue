@@ -65,9 +65,28 @@ import pic2 from '@/assets/image/data_img_2.png?url'
 import pic3 from '@/assets/image/data_img_3.png?url'
 import btc from '@/assets/image/btc-icon.png?url'
 import mvc from '@/assets/image/mvc-icon.png?url'
+import {getInfo} from '@/api/index'
+import { onMounted, reactive } from 'vue'
+
+async function getIdBotInfo() {
+  try {
+    const res=  await getInfo()
+    setcion2List[0].value=res.users
+    setcion2List[1].value=res.trasactions
+    setcion2List[2].value[0].value=res.btc
+    setcion2List[2].value[1].value=res.mvc
+  } catch (error) {
+    
+  }
+
+} 
 
 
-const setcion2List=[
+onMounted(async()=>{
+   await getIdBotInfo()
+})
+
+const setcion2List=reactive([
     {
         
         title:'Users',
@@ -95,7 +114,7 @@ const setcion2List=[
         ],
         
     }
-]
+])
 </script>
 <style lang='scss' scoped>
 

@@ -5,6 +5,10 @@ import Data from '@/views/Data.vue'
 import Social from '@/views/Social.vue'
 import FAQ from '@/views/FAQ.vue'
 import Footer from './components/Footer.vue'
+
+
+
+
 </script>
 
 <template>
