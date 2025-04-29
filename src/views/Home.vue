@@ -123,7 +123,7 @@ import pic10 from '@/assets/image/home_img10.png?url'
 import icon2 from '@/assets/image/home_section_icon.svg?url'
 import colspan from '@/assets/image/colspan.png?url'
 
-const tgUrl=`https://t.me/MetaID_telegram_bot`
+const tgUrl=`https://t.me/Official_IDBot`
 
 const navLink=[
   {
