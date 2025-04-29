@@ -25,6 +25,7 @@ import Footer from './components/Footer.vue'
 
 <style scoped>
 .logo {
+  
   height: 6em;
   padding: 1.5em;
   will-change: filter;
