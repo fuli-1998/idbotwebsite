@@ -43,7 +43,7 @@ import pic3 from '@/assets/image/footer-twitter.png?url'
 const githubUrl=`https://github.com/IDBOT-dev/MetaID_Bot`
 const metaidUrl=`https://metaid.io`
 const xUrl=`https://x.com/bot_id56853`
-const tgUrl=`https://t.me/MetaID_telegram_bot`
+const tgUrl=`https://t.me/Official_IDBot`
 
 </script>
 <style lang='scss' scoped>
