@@ -8,8 +8,8 @@
             <div class="section_1 mt-[146PX] flex items-center justify-center">
               <div class="flex w-11/12 sm:w-10/12 flex-col items-center md:flex-row  p-8 sm:p-12 rounded-[32PX] bg-[#F5FBFD]  justify-between">
                 <div class="flex flex-col  items-start">
-                    <div><img :src="icon" alt=""></div>
-                    <div class="font-bold text-3xl">Date</div>
+                    <div><img :src="icon2" alt=""></div>
+                    <div class="font-bold text-3xl">Data</div>
                     <div class="text-lg text-left">We have carefully built an intuitive and transparent social data transaction visualization information center for you.</div>
                 </div>
 
@@ -59,6 +59,7 @@
 </template>
 <script setup >
 import icon from '@/assets/image/home_section_icon.svg?url'
+import icon2 from '@/assets/image/Group.svg?url'
 import pic1 from '@/assets/image/data_img_1.png?url'
 
 import pic2 from '@/assets/image/data_img_2.png?url'
